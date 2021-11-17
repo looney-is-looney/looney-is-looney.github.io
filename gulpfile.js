@@ -13,4 +13,3 @@ function build() {
 }
 
 exports.default = build;
-exports.watch()
