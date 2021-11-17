@@ -30,7 +30,7 @@ github_username: looney-is-looney
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-autoprefixer
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,0 +1,29 @@
+{
+  "name": "looney-is-looney.github.io",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/looney-is-looney/looney-is-looney.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/looney-is-looney/looney-is-looney.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/looney-is-looney/looney-is-looney.github.io/issues"
+  },
+  "homepage": "https://github.com/looney-is-looney/looney-is-looney.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "postcss": "^8.3.11"
+  }
+}
