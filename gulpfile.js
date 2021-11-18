@@ -4,9 +4,11 @@ const sourcemaps = require('gulp-sourcemaps'),
   gulp = require('gulp');
 
 function build() {
-  return gulp.src('./_sass/*.sass')
+  return gulp.src('./_sass/*.scss')
     .pipe(sourcemaps.init())
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({
+      includePaths: ['_sass']
+    }).on('error', sass.logError))
     .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('./style'));
